@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project CHAnDAnA – Combating Sickle Cell Anemia in Karnataka</title>
+  <meta name="description" content="Project CHAnDAnA is Karnataka's mission to fight Sickle Cell Anemia using technology and community outreach." />
+  <meta name="keywords" content="Project CHAnDAnA, Sickle Cell Anemia, Karnataka, NHM, Health Mission, Tribal Health, India" />
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/src/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/src/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/src/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="/src/favicon_io/site.webmanifest">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/src/css/govt-style.css">
+  <link rel="stylesheet" href="/src/css/carousel.css">
+  <link rel="stylesheet" href="/src/css/partners.css">
+  <link rel="stylesheet" href="/src/css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Preloader CSS -->
+  <style>
+    #preloader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+   background: #ffffff;
+/* background: linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(203, 242, 220, 1) 0%, rgba(255, 255, 255, 1) 100%); */
+      z-index: 9999;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .spinner {
+      width: 60px;
+      height: 60px;
+      border: 6px solid #eee;
+      border-top: 6px solid #0078d4;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    
+    <div class="spinner"></div>
+    <div class="logo">
+          
+          <div class="logo-text text-white">
+            <h1>PROJECT CHAnDAnA</h1>
+            <p>National Sickle Cell Anemia Elimination Mission</p>
+          </div>
+        </div>
+      
+  </div>
+
+  <!-- Vue App -->
+  <div id="app"></div>
+
+  <!-- Load Vue App Script (will be delayed inside main.js) -->
+  <script type="module" src="/src/main.js"></script>
+<style>
+  .logo {
+  margin-left: 2rem;
+}
+/* #preloader{
+  background-image: url("/src/assets/images/new-banners/banner-1.png");
+} */
+
+</style>
+</body>
+</html>
