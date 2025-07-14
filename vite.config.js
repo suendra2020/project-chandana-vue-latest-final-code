@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue';
 
 export default defineConfig({
-  // base: '/project-chandana-july-2025-vue/', 
+  // base: '/', 
   base: '/',
   plugins: [vue()],
   build: {
