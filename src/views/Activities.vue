@@ -28,7 +28,25 @@
                 <span><i class="fas fa-calendar-alt"></i> {{ activity.frequency }}</span>
                 <span><i class="fas fa-map-marker-alt"></i> {{ activity.location }}</span>
               </div>
-              <h3>{{ activity.title }}</h3>
+              <h3>{{ activity.title }}</h3><h3>
+           <!-- Link section -->
+            <!-- <h3>
+            <a
+              href="https://drive.google.com/drive/folders/1Gwr9HbhXeA0o4LOjSfwGP7x4mlv5ZxDN"
+              class="btn btn-outline drive"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-cloud"></i>
+              OneDrive access to all information regarding Project CHAnDAnA
+            </a>
+          </h3> -->
+        <h3 v-if="activity.links">
+          <a :href="activity.links" target="_blank" rel="noopener noreferrer" class="btn btn-outline drive">
+            {{ activity.textabout }}
+          </a>
+        </h3>
+          </h3>
               <p v-for="(para, i) in activity.description" :key="i">{{ para }}</p>
             </div>
           </div>
@@ -64,6 +82,8 @@
 </template>
 
 <script>
+// import { act } from 'react';
+
 export default {
   name: 'Activities',
   data() {
@@ -75,6 +95,8 @@ export default {
             image: "",
             frequency: "Ongoing",
             location: "All Districts",
+            links:"https://drive.google.com/drive/folders/1TeRmOnEy3m7qjErNDx5ovayWZYiUMw7y",
+            textabout:"screening camps photos",
             description: [
               "We conduct regular screening camps in tribal areas to identify individuals with Sickle Cell Anemia. Our mobile units are equipped with the latest HPOS technology for rapid on-the-spot diagnosis.",
               "These camps are organized in collaboration with local healthcare facilities and community leaders to ensure maximum participation and effectiveness."
@@ -85,6 +107,8 @@ export default {
             image: "images/training/healthcare-training.jpg",
             frequency: "Quarterly",
             location: "District Hospitals",
+             links:"https://drive.google.com/drive/folders/1cFV2w8esHpbnP7gyLbAVNdkPEuzXgtW7",
+            textabout:"Healthcare Training photos",
             description: [
               "We provide comprehensive training to local healthcare workers on the diagnosis, treatment, and management of Sickle Cell Anemia.",
               "These training programs include both theoretical knowledge and practical skills, ensuring workers are well-equipped."
@@ -97,9 +121,35 @@ export default {
             image: "images/awerness.jpeg",
             frequency: "Monthly",
             location: "Village Centers",
+             links:"https://drive.google.com/drive/folders/1HV8h9XwY6_e23mPdVIYxkItI-9heNS-D",
+            textabout:"Community Awareness photos",
             description: [
               "We organize regular awareness programs in communities to educate people about Sickle Cell Anemia, its symptoms, prevention, and management.",
               "These programs use culturally appropriate communication methods in partnership with local leaders."
+            ]
+          },
+          {
+            title: "latest News papers",
+            image: "images/news-papers.jpeg",
+            frequency: "Monthly",
+            location: "Village Centers",
+             links:"https://drive.google.com/drive/folders/1pkUlNcbKQE7jBiy5yRGlLfqY0obOxNvH",
+            textabout:"News papers photos",
+            description: [
+              "Here is a detailed description of newspaper reports related to Project Chandana based on articles from The Times of India, Deccan Herald, PharmaBiz, and News Trail India:",
+              "These programs use culturally appropriate communication methods in partnership with local leaders."
+            ]
+          },
+          {
+            title: "IOCL Director Visit 1st Visit",
+            image: "images/ocl.jpeg",
+            frequency: "Monthly",
+            location: "Karnataka Project Sites",
+             links:"https://drive.google.com/drive/folders/1ovj5h4hFeSTOvWPvp25VH7TznicMokg9",
+            textabout:"Visit photos and documents",
+            description: [
+              "The Director of Indian Oil Corporation Limited (IOCL) visited the Project CHAnDAnA sites to review the progress and impact of the initiative.",
+              "During the visit, key stakeholders showcased the implementation of screening camps, awareness programs, and HPOS technology."
             ]
           },
           {

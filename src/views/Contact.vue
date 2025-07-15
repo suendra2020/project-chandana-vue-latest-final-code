@@ -83,12 +83,7 @@ Office: 080-2293 22691
     <section class="map-section">
       <h2>Our Location</h2>
       <div class="map-container">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9932373261!2d77.58795931482266!3d12.972096990855802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1662d81c089f%3A0x71f8ffcae0544b6!2sVidhana%20Soudha!5e0!3m2!1sen!2sin!4v1623145678901!5m2!1sen!2sin"
-          allowfullscreen=""
-          loading="lazy"
-          title="Map showing our office location"
-        ></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.2924168765758!2d77.56335117321055!3d13.017041413884186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17d757d11bfb%3A0x3fc1cd64d345c13f!2sIndian%20Institute%20of%20Science%20(Bengaluru)!5e0!3m2!1sen!2sin!4v1751958531773!5m2!1sen!2sin" allowfullscreen="" loading="lazy" title="Map showing our office location"></iframe>
       </div>
     </section>
 
