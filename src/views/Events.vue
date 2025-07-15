@@ -20,7 +20,7 @@
         <div class="report-meta1">
           <h3>
             <a
-              href="https://drive.google.com/drive/u/0/folders/1Gwr9HbhXeA0o4LOjSfwGP7x4mlv5ZxDN"
+              href="https://drive.google.com/drive/folders/1Gwr9HbhXeA0o4LOjSfwGP7x4mlv5ZxDN"
               class="btn btn-outline drive"
               target="_blank"
               rel="noopener noreferrer"

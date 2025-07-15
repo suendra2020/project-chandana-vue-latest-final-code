@@ -30,7 +30,7 @@
     <span class="stat-growth">1234321</span>
   </div>
   <div class="stat-item">
-    <span class="stat-number" aria-label="4 districts">4</span>
+    <span class="stat-number" aria-label="4 districts">3</span>
     <span class="stat-label">Target Districts</span>
   </div>
   <div class="stat-item">
