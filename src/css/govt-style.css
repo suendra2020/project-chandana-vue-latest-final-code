@@ -951,8 +951,21 @@ table tr:nth-child(even) {
     .menu-toggle {
         display: block;
         position: absolute;
-        right: 16px;
-        top: 80px;
+        right: 35px;
+        top: 24px;
+    }
+    header{
+        Position: sticky;
+        top: 0;
+        background: #fff;
+        z-index: 999999;
+    }
+    .log{
+        margin: 0 !important;
+    }
+    .logo img{
+        width: 55px;
+        height: 55px;
     }
     .header-main{
         display: flex;
@@ -960,6 +973,7 @@ table tr:nth-child(even) {
     }
     .logo-text{
         text-align: left;
+        top:2px;
     }
       .logo-text p{
 display: none;
@@ -994,9 +1008,7 @@ display: none;
         text-align: center;
     }
     
-    .logo {
-        margin-bottom: 15px;
-    }
+
     
     .header-right {
         flex-direction: column;

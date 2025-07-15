@@ -16,13 +16,13 @@
     flex-direction: column;
   }
   
-  .logo {
+  /* .logo {
     margin-bottom: 15px;
-  }
+  } */
   
   .header-right {
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   
   .carousel-container {
