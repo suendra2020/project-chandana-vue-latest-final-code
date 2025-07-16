@@ -2,7 +2,6 @@
   <div class="page-content">
     <div class="container">
         <h1 class="page-title">About Project CHAnDAnA</h1>
-      <p>This is the About Us page. Content from about.html will be implemented here.</p>
        <b-container class="about-section">
         <b-row>
           <b-col md="6">
