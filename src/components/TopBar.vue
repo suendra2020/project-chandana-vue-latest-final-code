@@ -12,8 +12,8 @@
             <button class="font-size-btn" @click="defaultFont" aria-label="Default font size">A</button>
             <button class="font-size-btn" @click="increaseFont" aria-label="Increase font size">A+</button>
           </div>
-          <a href="#" aria-label="Site Map">Site Map</a>
-          <a href="#" aria-label="Accessibility Statement">Accessibility</a>
+          <!-- <a href="#" aria-label="Site Map">Site Map</a>
+          <a href="#" aria-label="Accessibility Statement">Accessibility</a> -->
         </div>
       </div>
     </div>

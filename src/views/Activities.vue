@@ -104,7 +104,7 @@ export default {
           },
           {
             title: "Healthcare Worker Training",
-            image: "images/training/healthcare-training.jpg",
+            image: "images/training-1.jpeg",
             frequency: "Quarterly",
             location: "District Hospitals",
              links:"https://drive.google.com/drive/folders/1cFV2w8esHpbnP7gyLbAVNdkPEuzXgtW7",
@@ -118,7 +118,7 @@ export default {
         [
           {
             title: "Community Awareness Programs",
-            image: "images/awerness.jpeg",
+            image: "images/awerners-1.jpg",
             frequency: "Monthly",
             location: "Village Centers",
              links:"https://drive.google.com/drive/folders/1HV8h9XwY6_e23mPdVIYxkItI-9heNS-D",

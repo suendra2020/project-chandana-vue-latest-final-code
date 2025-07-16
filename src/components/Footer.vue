@@ -11,6 +11,7 @@
       </div>
       <div class="footer-bottom">
         <p class="">&copy; 2025 Project CHAnDAnA. All rights reserved.</p>
+        <small>Developed by <a href="https://kanuruinfo.com" target="_blank" rel="noopener noreferrer">Kanuru Info Systems Pvt Ltd</a></small>
       </div>
     </div>
   </footer>
