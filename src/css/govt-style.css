@@ -302,6 +302,8 @@ display: flex;
 /* Navigation Styles */
 nav {
     background-color: var(--primary-color);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #284da7;
 }
 
 .main-menu {

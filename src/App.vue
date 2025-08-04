@@ -1,8 +1,10 @@
 <template>
   <div id="app">
+    <div class="sticky-wrapper">
     <TopBar />
     <HeaderMain />
     <MainNav />
+    </div>
     <!-- <Breadcrumb /> -->
     <router-view />
     <Footer />
@@ -29,5 +31,11 @@ export default {
 
 <style>
 /* Global styles will be loaded from CSS files in public folder */
+/* Example for App.vue or a global CSS file */
+.sticky-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 999; /* make sure it stays above other content */
+}
 </style>
 
