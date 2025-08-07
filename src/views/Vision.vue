@@ -6,7 +6,7 @@
   <section class="vision-section bg-light">
     <b-container>
       <b-row>
-        <b-col md="6">
+       <b-col md="6" class="bg-white p-2 px-4 d-block shadow-sm">
           <h2 class="mb-3">Vision Statement</h2>
           <p>
             To create a Karnataka where Sickle Cell Anemia is effectively managed, its burden is reduced,

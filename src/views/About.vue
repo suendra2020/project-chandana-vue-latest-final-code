@@ -4,7 +4,7 @@
         <h1 class="page-title">About Project CHAnDAnA</h1>
        <b-container class="about-section">
         <b-row>
-          <b-col md="6">
+          <b-col md="6" class="bg-white p-2 px-4 d-block shadow-sm">
             <h2>Our Mission</h2>
             <p>
               Project CHAnDAnA (Comprehensive Healthcare Advancement for Neglected Disease Awareness) is a pioneering initiative focused on addressing Sickle Cell Anemia in Karnataka, particularly in the districts of Mysore, Chamarajanagar, and Kodagu.

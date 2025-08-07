@@ -11,30 +11,37 @@
                 <!-- <p>Project CHAnDAnA brings together experts from various fields to address Sickle Cell Anemia in Karnataka. Our team consists of dedicated professionals from healthcare, research, community outreach, and administration who work collaboratively to achieve our mission.</p> -->
             </section>
             <section>
+              <div class="bg-white p-3  d-block shadow-sm mb-3">
              <h4>The National Sickle Cell Anaemia Elimination Mission (NSCAEM)</h4>
              <p>is a major Government of India initiative to eliminate sickle cell disease by 2047. It aims to screen crores of people, provide genetic counselling, expand treatment access, and spread awareness so families can make informed choices and break the cycle of the disease.
 </p>
+</div>
+ <div class="bg-white p-3  d-block shadow-sm mb-3">
  <h4>Project Chandana supports this mission in Karnataka through a well-organised team structure</h4>
              <p>The Project Director leads planning and partnerships, while the Medical Program Head designs screening and treatment processes with local hospitals. The Outreach Coordinator runs awareness campaigns, the Screening Manager handles camps and logistics, and the Treatment & Support Officer ensures patient care. Community Health Workers connect villages, supported by Data Analysts, Finance staff, and volunteers who keep the project running smoothly.
 
 </p>
+</div>
+ <div class="bg-white p-3  d-block shadow-sm mb-3">
  <h4>At the state level, Karnataka State Officers and Deputy Directors align Project Chandana’s work with the national mission</h4>
              <p>They guide policy, ensure supplies and training, monitor progress, and link state health departments with the project’s leadership, keeping efforts standardised and effective across regions.
 
 
 </p>
+</div>
+ <div class="bg-white p-3  d-block shadow-sm mb-3">
 <h4>District Health Officers (DHOs) and District Tribal Welfare Officers (DTOs) </h4>
              <p>Mysore, Chamarajanagar, and Kodagu ensure smooth ground-level execution. They organise screening camps, mobilise local health staff, and coordinate with PHCs and Community Health Workers to reach remote families. By connecting communities with treatment and follow-up, they strengthen Karnataka’s impact under the National Mission, helping families lead healthier, sickle cell–free lives.
 
 
 
 </p>
+</div>
+<div class="bg-white p-3  d-block shadow-sm mb-3">
 <h4>Indian Oil Corporation Limited (IOL) </h4>
-             <p>Indian Oil Corporation Limited (IOL) is playing a crucial role in strengthening Project Chandana through its Corporate Social Responsibility (CSR) initiatives. By providing financial support, IOL helps fund large-scale screening camps, mobile health units, and the supply of testing kits and medicines for communities affected by sickle cell anaemia. Additionally, IOL’s support enables the project team to organise awareness campaigns, distribute educational materials in local languages, and train community health workers. This partnership ensures that Project Chandana reaches remote tribal areas effectively, expanding its impact in line with the National Sickle Cell Anaemia Elimination Mission.
-
-
-
+<p>Indian Oil Corporation Limited (IOL) is playing a crucial role in strengthening Project Chandana through its Corporate Social Responsibility (CSR) initiatives. By providing financial support, IOL helps fund large-scale screening camps, mobile health units, and the supply of testing kits and medicines for communities affected by sickle cell anaemia. Additionally, IOL’s support enables the project team to organise awareness campaigns, distribute educational materials in local languages, and train community health workers. This partnership ensures that Project Chandana reaches remote tribal areas effectively, expanding its impact in line with the National Sickle Cell Anaemia Elimination Mission.
 </p>
+</div>
 
             </section>
             

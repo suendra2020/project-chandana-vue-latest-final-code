@@ -9,7 +9,21 @@
             <p>National Sickle Cell Anemia Elimination Mission</p>
           </div>
         </div>
-        <div class="header-right">
+        <nav id="main-nav" role="navigation" aria-label="Main navigation" class="headermain-nav">
+    <div class="container">
+      <ul class="main-menu">
+        <li><router-link to="/" active-class="active">Home</router-link></li>
+        <li><router-link to="/about" active-class="active">About Us</router-link></li>
+        <li><router-link to="/vision" active-class="active">Vision</router-link></li>
+        <li><router-link to="/teams" active-class="active">Teams</router-link></li>
+        <li><router-link to="/activities" active-class="active">Activities</router-link></li>
+        <li><router-link to="/reports" active-class="active">Reports</router-link></li>
+        <li><router-link to="/events" active-class="active">Events</router-link></li>
+        <li><router-link to="/contact" active-class="active">Contact Us</router-link></li>
+      </ul>
+    </div>
+  </nav> 
+        <!-- <div class="header-right">
           <div class="search-bar">
             <label for="search" class="visually-hidden">Search</label>
             <input type="text" id="search" v-model="searchQuery" placeholder="Search..." aria-label="Search">
@@ -26,7 +40,10 @@
           <div class="menu-toggle" @click="toggleMenu" aria-label="Toggle menu" :aria-expanded="menuOpen" aria-controls="main-nav">
             <i class="fas fa-bars"></i>
           </div>
-        </div>
+        </div> -->
+         <div class="menu-toggle" @click="toggleMenu" aria-label="Toggle menu" :aria-expanded="menuOpen" aria-controls="main-nav">
+            <i class="fas fa-bars"></i>
+          </div>
       </div>
     </div>
   </header>

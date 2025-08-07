@@ -23,7 +23,7 @@ export default {
   components: {
     TopBar,
     HeaderMain,
-    MainNav,
+    // MainNav,
     Footer
   }
 }

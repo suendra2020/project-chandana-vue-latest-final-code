@@ -167,7 +167,7 @@ export default {
             height: 100%;
         }
         
-        .report-card:hover {
+        .report-card:hover,.main-header-hover:hover {
             transform: translateY(-5px);
         }
         
