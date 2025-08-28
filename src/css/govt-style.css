@@ -1094,6 +1094,15 @@ display: none;
   font-weight: 500;
   color: #00695c;
 }
+.logo-home{
+    display: flex;
+    text-decoration: none;
+    color: #000;
+}
+.logo-home:hover,.logo-home:focus{
+    text-decoration: none;
+   
+}
 
 @keyframes ticker-scroll {
   0% {

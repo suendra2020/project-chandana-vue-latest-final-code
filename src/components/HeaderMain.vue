@@ -3,11 +3,13 @@
     <div class="container mobile-header">
       <div class="header-main">
         <div class="logo">
+          <router-link to="/" class="logo-home">
           <img :src="$base + 'images/nsa.svg'" alt="National Sickle Cell Anemia Elimination Mission Logo" width="80" height="80">
           <div class="logo-text">
             <h1>PROJECT CHAnDAnA</h1>
             <p>National Sickle Cell Anemia Elimination Mission</p>
           </div>
+          </router-link>
         </div>
         <nav id="main-nav" role="navigation" aria-label="Main navigation" class="headermain-nav">
     <div class="container">
