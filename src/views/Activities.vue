@@ -12,6 +12,29 @@
         for affected communities.
       </p>
     </section>
+<div class="impact-card">
+<div class="tagline">
+    <h1>🌿 Project Chandana Impact 🌿</h1>
+    <ul>
+      <li>✅ <strong>2,849 ASHA workers</strong> trained &amp; facilitated</li>
+      <li>✅ <strong>650 CHO workers</strong> trained &amp; facilitated</li>
+    </ul>
+    </div>
+    <img :src="$base + 'images/trained.png'" alt="Impact Image" style="width:100%; height:auto; border-radius:8px; margin-top:20px;">
+   
+  </div>
+  <div class="impact-card">
+    <h1>🌿 Project Chandana Impact 🌿</h1>
+    <ul>
+      <li>✅ <strong>577 SCD</strong> cases identified</li>
+      <li>✅ <strong>4,666 SCT</strong> carriers identified</li>
+    </ul>
+    <ul class="description">
+      <li><strong>SCD (Sickle-Cell Disease)</strong> – a hereditary blood disorder in which the body produces abnormal, sickle-shaped red blood cells.</li>
+      <li><strong>SCT (Sickle-Cell Trait)</strong> – when a person carries just one copy of the sickle-cell gene. They usually don’t have symptoms of the disease but can pass the gene to their children.</li>
+    </ul>
+     <img :src="$base + 'images/ssd.png'" alt="Impact Image" style="width:100%; height:auto; border-radius:8px; margin-top:20px;">
+  </div>
 
     <section class="activities-grid">
       <div class="row" v-for="(activityRow, index) in activities" :key="index">
@@ -153,6 +176,16 @@ export default {
             ]
           },
           {
+            title: "2849 ASHA, 650 CHO’S WORKERS TRAINED & FACILITATED",
+            image: "images/trained.png",
+            frequency: "Monthly",
+            location: "Karnataka Project Sites",
+            description: [
+              "The Director of Indian Oil Corporation Limited (IOCL) visited the Project CHAnDAnA sites to review the progress and impact of the initiative.",
+              "During the visit, key stakeholders showcased the implementation of screening camps, awareness programs, and HPOS technology."
+            ]
+          },
+          {
             title: "Research and Innovation",
             image: "images/hpcs.png",
             frequency: "Ongoing",
@@ -167,8 +200,8 @@ export default {
       upcomingActivities: [
         {
           title: "Screening Camp",
-          location: "Mysuru District, Tribal Hamlets",
-          date: "June 15-20, 2025"
+          location: "Mysore piryaypatna, Chamarajanagar, Mysore HD kote",
+          date: "Sep 03-13, 2025"
         },
         {
           title: "World Sickle Cell Awareness Day",
@@ -274,6 +307,46 @@ export default {
             border-radius: 4px;
             font-weight: bold;
         }
+
+
+           .impact-card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 40px;
+      margin-bottom: 2rem;
+      text-align: left;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+    .impact-card h1 {
+      color: #2f855a; /* green accent */
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    .impact-card ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 1rem 0;
+      font-size: 1.2rem;
+      color: #333;
+    }
+    .impact-card ul li {
+      margin: 0.5rem 0;
+    }
+    .impact-card .tagline {
+      font-size: 1rem;
+      color: #555;
+    }
+     .impact-card .description {
+      text-align: left;
+      margin-top: 1rem;
+      font-size: 0.95rem;
+      color: #444;
+    }
+    .hashtags {
+      margin-top: 1rem;
+      color: #777;
+      font-size: 0.9rem;
+    }
     </style>
 
 

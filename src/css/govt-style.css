@@ -1103,6 +1103,10 @@ display: none;
     text-decoration: none;
    
 }
+/* Pause animation on hover */
+.ticker-wrap:hover .ticker-text {
+  animation-play-state: paused;
+}
 
 @keyframes ticker-scroll {
   0% {
