@@ -174,17 +174,7 @@ export default {
               "The Director of Indian Oil Corporation Limited (IOCL) visited the Project CHAnDAnA sites to review the progress and impact of the initiative.",
               "During the visit, key stakeholders showcased the implementation of screening camps, awareness programs, and HPOS technology."
             ]
-          },
-          {
-            title: "2849 ASHA, 650 CHO’S WORKERS TRAINED & FACILITATED",
-            image: "images/trained.png",
-            frequency: "Monthly",
-            location: "Karnataka Project Sites",
-            description: [
-              "The Director of Indian Oil Corporation Limited (IOCL) visited the Project CHAnDAnA sites to review the progress and impact of the initiative.",
-              "During the visit, key stakeholders showcased the implementation of screening camps, awareness programs, and HPOS technology."
-            ]
-          },
+          },          
           {
             title: "Research and Innovation",
             image: "images/hpcs.png",
