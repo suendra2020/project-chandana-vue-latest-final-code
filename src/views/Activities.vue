@@ -12,6 +12,99 @@
         for affected communities.
       </p>
     </section>
+    <h2 class="my-4">🌟 Project CHAnDAnA – IOCL–IISc CSR Initiative (2024–26)</h2>
+    <div class="impact-container">
+
+  <!-- CARD 1 – Funding & Mission -->
+  <div class="impact-card-activity">
+    <h3>💰 Funding & Mission</h3>
+    <ul>
+      <li>₹18 crore CSR support from IOCL</li>
+      <li>Led by IISc + Govt. of Karnataka</li>
+      <li>Supports National Sickle Cell Anaemia Elimination Mission 2047</li>
+    </ul>
+    
+  </div>
+
+  <!-- CARD 2 – Infrastructure & Deployment -->
+  <div class="impact-card-activity">
+    <h3>🏗️ Infrastructure & Deployment</h3>
+    <ul>
+      <li>🧪 1 IVD & Kits Quality Testing Lab (IISc)</li>
+      <li>🖥️ 1 Central Command Centre</li>
+      <li>🏥 422 HPOS devices installed in PHCs</li>
+      <li>🔬 2 HPLC labs setup</li>
+      <li>🚐 3 Mobile MITR vans deployed</li>
+      <li>📦 2,34,850 test kits distributed</li>
+    </ul>
+    
+  </div>
+
+  <!-- CARD 3 – Capacity Building -->
+  <div class="impact-card-activity">
+    <h3>👩‍⚕️ Capacity Building</h3>
+    <ul>
+      <li>🎓 10 students trained</li>
+      <li>🔬 5 postdocs supported</li>
+      <li>👥 31 project staff engaged</li>
+      <li>🩺 2,849 ASHA workers trained</li>
+      <li>🏥 650 CHOs trained</li>
+      <li>👨‍⚕️ 200 Medical Officers trained</li>
+    </ul>
+    
+  </div>
+
+  <!-- CARD 4 – Screening Impact -->
+  <div class="impact-card-activity">
+    <h3>🔍 Screening Impact</h3>
+    <ul>
+      <li>👥 2,03,621 individuals screened (81.5%)</li>
+      <li>📍 3 districts • 18 taluks • 405 villages</li>
+      <li>🩸 577 SCD patients identified</li>
+      <li>🧬 4,664 SCT carriers detected</li>
+    </ul>
+   
+  </div>
+
+  <!-- CARD 5 – Technology Innovations -->
+  <div class="impact-card-activity">
+    <h3>🧪 Technology Innovations</h3>
+    <ul>
+      <li>📊 %HbS estimation using HPOS field tests</li>
+      <li>🧫 Single-test kit simplified format</li>
+      <li>⏱️ Real-time stability validation</li>
+      <li>🤖 Anaemia classification AI models</li>
+      <li>🔍 MicroHeme • MiniHeme • SpectroHeme devices</li>
+    </ul>
+   
+  </div>
+
+  <!-- CARD 6 – Community Outreach -->
+  <div class="impact-card-activity">
+    <h3>🌍 Community Outreach</h3>
+    <ul>
+      <li>📢 150+ awareness programs</li>
+      <li>📰 Strong IEC materials & rural engagement</li>
+      <li>🩺 Free on-spot screening (minutes → months)</li>
+      <li>❤️ Immediate treatment & counselling</li>
+      <li>🆔 Digital health IDs + follow-up tracking</li>
+    </ul>
+    
+  </div>
+
+  <!-- CARD 7 – National Impact -->
+  <div class="impact-card-activity">
+    <h3>🏆 National Impact</h3>
+    <ul>
+      <li>🤝 Public–private–government collaboration</li>
+      <li>📈 Advances 6 UN SDGs</li>
+      <li>🇮🇳 Scalable national model for underserved communities</li>
+    </ul>
+   
+  </div>
+
+</div>
+
 <div class="impact-card">
 <div class="tagline">
     <h1>🌿 Project Chandana Impact 🌿</h1>
@@ -297,9 +390,40 @@ export default {
             border-radius: 4px;
             font-weight: bold;
         }
+.impact-container{
+   display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    }
 
+ 
 
-           .impact-card {
+  /* HOVER EFFECT: ZOOM + BORDER GLOW + SHADOW BOOST */
+  .impact-card-activity:hover {
+    transform: scale(1.05); /* zoom in */
+    border-color: #2b6841; /* green border highlight */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.18); /* deeper shadow */
+  }
+    .impact-card-activity{
+        flex: 1 1 366px;
+    min-width: 180px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px #00000014;
+    position: relative;
+    border: 1px solid #e3e3e3;
+        /* Animation properties */
+    transition: 
+      transform .35s ease,
+      border-color .35s ease,
+      box-shadow .35s ease;
+  }
+   
+
+           .impact-card,.impact-card-activity {
       background: #ffffff;
       border-radius: 16px;
       padding: 40px;
