@@ -143,11 +143,11 @@ export default {
               isOpen: false,
               html: `
                 <div class="team-grid">
-                  <div class="person-card"><img src="${this.$base}images/rehan.png"><div class="person-name">Dr. Rehan Shahed</div></div>
+                  <!-- <div class="person-card"><img src="${this.$base}images/rehan.png"><div class="person-name">Dr. Rehan Shahed</div></div>-->
                   <div class="person-card"><img src="${this.$base}images/pradhyumma.png"><div class="person-name">Dr. Pradhyumma</div></div>
-                  <div class="person-card"><img src="${this.$base}images/shrishail.png"><div class="person-name">GM Shrishail</div></div>
-                  <div class="person-card"><img src="${this.$base}images/chandan.png"><div class="person-name">Chandan Adhikari</div></div>
-                  <div class="person-card"><img src="${this.$base}images/tejaswini.png"><div class="person-name">Tejaswini S B</div></div>
+                   <!-- <div class="person-card"><img src="${this.$base}images/shrishail.png"><div class="person-name">GM Shrishail</div></div>-->
+                  <!-- <div class="person-card"><img src="${this.$base}images/chandan.png"><div class="person-name">Chandan Adhikari</div></div>-->
+                   <!-- <div class="person-card"><img src="${this.$base}images/tejaswini.png"><div class="person-name">Tejaswini S B</div></div>-->
                 </div>`
             },
             {
@@ -155,11 +155,12 @@ export default {
               isOpen: false,
               html: `
                 <div class="team-grid">
-                  <div class="person-card"><img src="${this.$base}images/anitha.png"><div class="person-name">Anitha<br><strong>IEC Activities Team</strong></div></div>
-                  <div class="person-card"><img src="${this.$base}images/sathyanarayana.png"><div class="person-name">Sathyanarayana<br><strong>Command Center</strong></div></div>
+                <!--  <div class="person-card"><img src="${this.$base}images/anitha.png"><div class="person-name">Anitha<br><strong>IEC Activities Team</strong></div></div>-->
+              <div class="person-card"><img src="${this.$base}images/anitha..png"><div class="person-name">Anusha nayak<br><strong> IEC cordinator </strong></div></div>
+                   <!--   <div class="person-card"><img src="${this.$base}images/sathyanarayana.png"><div class="person-name">Sathyanarayana<br><strong>Command Center</strong></div></div>-->
                   <div class="person-card"><img src="${this.$base}images/prasath.png"><div class="person-name">Prasath<br><strong>Command Center</strong></div></div>
                   <div class="person-card"><img src="${this.$base}images/ashraf.png"><div class="person-name">Ashraf<br><strong>Command Center</strong></div></div>
-                  <div class="person-card"><img src="${this.$base}images/rayees.png"><div class="person-name">Rayees<br><strong>Command Center</strong></div></div>
+                    <!--  <div class="person-card"><img src="${this.$base}images/rayees.png"><div class="person-name">Rayees<br><strong>Command Center</strong></div></div>-->
                   <div class="person-card"><img src="${this.$base}images/prajwal.png"><div class="person-name">Prajwal<br><strong>Field Technicians</strong></div></div>
                   <div class="person-card"><img src="${this.$base}images/prasana.png"><div class="person-name">Prasanna<br><strong>Field Technicians</strong></div></div>
                   <div class="person-card"><img src="${this.$base}images/abhishek.png"><div class="person-name">Abhishek<br><strong>Field Technicians</strong></div></div>
