@@ -9,20 +9,34 @@ import Reports from '../views/Reports.vue'
 import Events from '../views/Events.vue'
 import Contact from '../views/Contact.vue'
 
+
 const routes = [
-  { path: '/', name: 'Home', component: Home },
-  { path: '/about', name: 'About', component: About },
-  { path: '/vision', name: 'Vision', component: Vision },
-  { path: '/teams', name: 'Teams', component: Teams },
-  { path: '/activities', name: 'Activities', component: Activities },
-  { path: '/reports', name: 'Reports', component: Reports },
-  { path: '/events', name: 'Events', component: Events },
-  { path: '/contact', name: 'Contact', component: Contact }
+  { path: '/', component: Home, meta: { title: 'Home | Project Chandana' } },
+  { path: '/about', component: About, meta: { title: 'About Us | Project Chandana' } },
+  { path: '/vision', component: Vision, meta: { title: 'Vision | Project Chandana' } },
+  { path: '/teams', component: Teams, meta: { title: 'Our Teams | Project Chandana' } },
+  { path: '/activities', component: Activities, meta: { title: 'Activities | Project Chandana' } },
+  { path: '/reports', component: Reports, meta: { title: 'Reports | Project Chandana' } },
+  { path: '/events', component: Events, meta: { title: 'Events | Project Chandana' } },
+  { path: '/contact', component: Contact, meta: { title: 'Contact Us | Project Chandana' } }
 ]
+// const routes = [
+//   { path: '/', name: 'Home', component: Home },
+//   { path: '/about', name: 'About', component: About },
+//   { path: '/vision', name: 'Vision', component: Vision },
+//   { path: '/teams', name: 'Teams', component: Teams },
+//   { path: '/activities', name: 'Activities', component: Activities },
+//   { path: '/reports', name: 'Reports', component: Reports },
+//   { path: '/events', name: 'Events', component: Events },
+//   { path: '/contact', name: 'Contact', component: Contact }
+// ]
 
 const router = createRouter({
   history: createWebHistory(),
   routes
 })
-
+// Set page title dynamically
+router.afterEach((to) => {
+  document.title = to.meta.title || 'Project Chandana'
+})
 export default router
