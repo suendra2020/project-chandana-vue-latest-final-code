@@ -79,14 +79,14 @@ export default {
    data() {
     return {
       stats: [
-        { id: 'count1', end: 201378, label: 'Total Screenings Tests Completed', icon: '🔒', isPercentage: false, displayValue: '0',bgClass: 'bg-red' },
+        { id: 'count1', end: 211728, label: 'Total Screenings Tests Completed', icon: '🔒', isPercentage: false, displayValue: '0',bgClass: 'bg-red' },
         { id: 'count2', end: 75, label: 'Awareness Activities Performed', icon: '📋', isPercentage: false, displayValue: '0',bgClass: 'bg-orange' },
         { id: 'count3', end: 1275, label: 'Sickle Cell Disease Cases', icon: '🧭', isPercentage: false, displayValue: '0',bgClass: 'bg-green' },
         { id: 'count4', end: 80.02, label: 'Target Achieved Using HPOS', icon: '👥', isPercentage: true, displayValue: '0%',bgClass: 'bg-white' },
-        { id: 'count5', end: 127584, label: 'Mysore', icon: '👥', isPercentage: false, displayValue: '0%',bgClass: 'bg-red' },
-        { id: 'count6', end: 18568, label: 'Kodagu', icon: '👥', isPercentage: false, displayValue: '0%',bgClass: 'bg-blue' },
-         { id: 'count6', end: 55226, label: 'Chamarajanagar', icon: '👥', isPercentage: false, displayValue: '0%',bgClass: 'bg-orange' },
-         { id: 'count6', end: 201378, label: 'Total', icon: '👥', isPercentage: false, displayValue: '0%',bgClass: 'bg-red' }
+        { id: 'count5', end: 135328, label: 'Mysore', icon: '👥', isPercentage: false, displayValue: '0%',bgClass: 'bg-red' },
+        { id: 'count6', end: 16197, label: 'Kodagu', icon: '👥', isPercentage: false, displayValue: '0%',bgClass: 'bg-blue' },
+         { id: 'count6', end: 54962, label: 'Chamarajanagar', icon: '👥', isPercentage: false, displayValue: '0%',bgClass: 'bg-orange' },
+         { id: 'count6', end: 206487, label: 'Total', icon: '👥', isPercentage: false, displayValue: '0%',bgClass: 'bg-red' }
       ],
       reports: [
         {
