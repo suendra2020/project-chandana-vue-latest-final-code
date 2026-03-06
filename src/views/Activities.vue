@@ -58,7 +58,7 @@
   <div class="impact-card-activity">
     <h3>🔍 Screening Impact</h3>
     <ul>
-      <li>👥 2,03,621 individuals screened (81.5%)</li>
+      <li>👥 2,06,487 individuals screened (81.5%)</li>
       <li>📍 3 districts • 18 taluks • 405 villages</li>
       <li>🩸 577 SCD patients identified</li>
       <li>🧬 4,664 SCT carriers detected</li>

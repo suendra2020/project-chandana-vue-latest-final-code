@@ -10,7 +10,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p class="">&copy; 2025 Project CHAnDAnA. All rights reserved.</p>
+        <p class="">&copy; 2026 Project CHAnDAnA. All rights reserved.</p>
         <small>Developed by <a href="https://kanurutech.com/" target="_blank" rel="noopener noreferrer">Kanuru Info Systems Pvt Ltd</a></small>
       </div>
     </div>
