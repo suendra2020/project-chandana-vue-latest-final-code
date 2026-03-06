@@ -10,7 +10,45 @@
       </p>
        <p class="text-muted">Number of tests conducted, locations covered</p>
     </section>
-    <div class="report-section">
+
+     <!-- District Reports -->
+      <div class="report-section">
+        <h4>Consolidated Data District-wise reports till date</h4>
+    <div class="district-wrapper">
+
+      <div
+        class="district-column"
+        v-for="district in districts"
+        :key="district.name"
+:class="district.bg"
+      >
+
+        <!-- District Heading -->
+        <h2 class="district-title">
+          {{ district.name }}
+        </h2>
+
+        <!-- Cards -->
+        <div class="district-cards">
+
+          <div
+            v-for="stat in district.stats"
+            :key="stat.label"
+            class="report-box"
+          >
+           <div class="icon" :class="stat.color">
+<i :class="stat.icon"></i>
+</div>
+
+            <h3>{{ stat.value.toLocaleString() }}</h3>
+            <p>{{ stat.label }}</p>
+
+          </div>
+
+        </div>
+
+      </div>
+    <!-- <div class="report-section">
       
       <div class="report-grid">
   <div
@@ -24,10 +62,11 @@
     <p>{{ stat.label }}</p>
   </div>
 </div>
-    </div>
+    </div> -->
 
-    <h1 class="page-title">Reports & Publications</h1>
+    
     <section class="reports-intro">
+      <h1 class="page-title">Reports & Publications</h1>
       <p>
         Project CHAnDAnA regularly publishes reports, research papers, and other
         publications related to Sickle Cell Anemia in Karnataka. These documents
@@ -69,7 +108,9 @@
       </div>
     </section>
   </div>
+  </div>
     </div>
+  </div>
   </div>
 </template>
 
@@ -85,8 +126,12 @@ export default {
         { id: 'count4', end: 80.02, label: 'Target Achieved Using HPOS', icon: '👥', isPercentage: true, displayValue: '0%',bgClass: 'bg-white' },
         { id: 'count5', end: 135328, label: 'Mysore', icon: '👥', isPercentage: false, displayValue: '0%',bgClass: 'bg-red' },
         { id: 'count6', end: 16197, label: 'Kodagu', icon: '👥', isPercentage: false, displayValue: '0%',bgClass: 'bg-blue' },
-         { id: 'count6', end: 54962, label: 'Chamarajanagar', icon: '👥', isPercentage: false, displayValue: '0%',bgClass: 'bg-orange' },
-         { id: 'count6', end: 206487, label: 'Total', icon: '👥', isPercentage: false, displayValue: '0%',bgClass: 'bg-red' }
+         { id: 'count7', end: 54962, label: 'Chamarajanagar', icon: '👥', isPercentage: false, displayValue: '0%',bgClass: 'bg-orange' },
+         { id: 'count8', end: 206487, label: 'Total', icon: '👥', isPercentage: false, displayValue: '0%',bgClass: 'bg-red' },
+          { id: 'count6', end: 16197, label: 'Kodagu', icon: '👥', isPercentage: false, displayValue: '0%',bgClass: 'bg-blue' },
+         { id: 'count7', end: 54962, label: 'Chamarajanagar', icon: '👥', isPercentage: false, displayValue: '0%',bgClass: 'bg-orange' },
+         { id: 'count8', end: 206487, label: 'Total', icon: '👥', isPercentage: false, displayValue: '0%',bgClass: 'bg-red' },
+         { id: 'count9', end: 206487, label: 'Total', icon: '👥', isPercentage: false, displayValue: '0%',bgClass: 'bg-red' }
       ],
       reports: [
         {
@@ -131,7 +176,118 @@ export default {
         { logo: this.$base + "images/karnatka.png", alt: "Government of Karnataka" },
         { logo: this.$base + "images/indianoil-logo.png", alt: "IndianOil Aarogyam" },
         { logo: this.$base + "images/isim.png", alt: "Indian Institute of Science" },
-      ]
+      ],
+districts: [
+
+{
+name: "Chamarajanagar",
+bg: "district-orange",
+stats: [
+
+{
+label: "Normal",
+value: 54962,
+icon: "fa-solid fa-users",
+color: "icon-blue"
+},
+
+{
+label: "Carriers Sickle Cell Trait",
+value: 1363,
+icon: "fa-solid fa-dna",
+color: "icon-purple"
+},
+
+{
+label: "Sickle Cell Disease",
+value: 128,
+icon: "fa-solid fa-droplet",
+color: "icon-red"
+},
+
+{
+label: "Total",
+value: 56453,
+icon: "fa-solid fa-chart-column",
+color: "icon-green"
+}
+
+]
+},
+
+{
+name: "Kodagu",
+bg: "district-blue",
+stats: [
+
+{
+label: "Normal",
+value: 16197,
+icon: "fa-solid fa-users",
+color: "icon-blue"
+},
+
+{
+label: "Carriers Sickle Cell Trait",
+value: 1960,
+icon: "fa-solid fa-dna",
+color: "icon-purple"
+},
+
+{
+label: "Sickle Cell Disease",
+value: 273,
+icon: "fa-solid fa-droplet",
+color: "icon-red"
+},
+
+{
+label: "Total",
+value: 18430,
+icon: "fa-solid fa-chart-column",
+color: "icon-green"
+}
+
+]
+},
+
+{
+name: "Mysuru",
+bg: "district-green",
+stats: [
+
+{
+label: "Normal",
+value: 135328,
+icon: "fa-solid fa-users",
+color: "icon-blue"
+},
+
+{
+label: "Carriers Sickle Cell Trait",
+value: 1341,
+icon: "fa-solid fa-dna",
+color: "icon-purple"
+},
+
+{
+label: "Sickle Cell Disease",
+value: 176,
+icon: "fa-solid fa-droplet",
+color: "icon-red"
+},
+
+{
+label: "Total",
+value: 136845,
+icon: "fa-solid fa-chart-column",
+color: "icon-green"
+}
+
+]
+}
+
+]
     };
   },
   mounted() {
@@ -338,4 +494,102 @@ background-color: #e4f1ff;
     @media (max-width: 600px) {
       .report-box h3 { font-size: 1.4rem; }
     }
+    .district-wrapper{
+display:flex;
+flex-wrap:wrap;
+gap:30px;
+justify-content:center;
+margin-top:30px;
+}
+
+.district-column{
+background:#fff;
+border-radius:12px;
+padding:20px;
+box-shadow:0 4px 10px rgba(0,0,0,0.05);
+flex:1 1 320px;
+}
+
+.district-title{
+text-align:center;
+margin-bottom:20px;
+font-size:22px;
+color:#2c3e50;
+font-weight:600;
+}
+
+.district-cards{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:15px;
+}
+
+.report-box{
+background:#f9fafb;
+border-radius:10px;
+padding:18px;
+text-align:center;
+border:1px solid #e5e7eb;
+transition:0.3s;
+}
+
+.report-box:hover{
+transform:translateY(-4px);
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+.report-box h3{
+font-size:22px;
+font-weight:600;
+margin-bottom:5px;
+}
+
+.report-box p{
+font-size:14px;
+color:#555;
+}
+
+.icon img{
+width:32px;
+margin-bottom:8px;
+}
+
+@media(max-width:768px){
+
+.district-cards{
+grid-template-columns:1fr;
+}
+
+}
+/* District Backgrounds */
+
+.district-orange{
+background:#fff3e6;
+}
+
+.district-blue{
+background:#e8f2ff;
+}
+
+.district-green{
+background:#eaf9f0;
+}
+/* Icon Colors */
+
+.icon-blue{
+color:#1e88e5;
+}
+
+.icon-purple{
+color:#8e24aa;
+}
+
+.icon-red{
+color:#e53935;
+}
+
+.icon-green{
+color:#2e7d32;
+}
+
     </style>

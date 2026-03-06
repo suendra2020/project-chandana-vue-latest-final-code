@@ -1230,6 +1230,7 @@ p{
     transition: all 0.3s ease;
     text-decoration: none;
     margin: 12px 7px 0;
+    cursor: pointer;
 }
 .headermain-nav .main-menu li a:hover, .headermain-nav .main-menu li a:focus,.headermain-nav .main-menu li a.active{
     border-bottom: 3px solid #0a2463;
