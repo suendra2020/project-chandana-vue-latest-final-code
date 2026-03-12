@@ -9,6 +9,12 @@
             <h1>PROJECT CHAnDAnA</h1>
             <p>National Sickle Cell Anemia Elimination Mission</p>
           </div>
+          <div class="partners-logs d-flex">
+             <img :src="$base + 'images/indianoil-logo.png'" alt="National Sickle Cell Anemia Elimination Mission Logo" width="80" height="80">
+              <img :src="$base + 'images/karnatka.png'" alt="National Sickle Cell Anemia Elimination Mission Logo" width="80" height="80">
+               <img :src="$base + 'images/issm2.png'" alt="National Sickle Cell Anemia Elimination Mission Logo" width="80" height="80">
+          </div>
+          
           </router-link>
         </div>
         <nav id="main-nav" role="navigation" aria-label="Main navigation" class="headermain-nav">
@@ -77,6 +83,7 @@ export default {
       searchQuery: '',
       menuOpen: false
     }
+    
   },
   methods: {
     performSearch() {

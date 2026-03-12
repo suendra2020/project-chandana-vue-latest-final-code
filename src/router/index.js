@@ -33,7 +33,16 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
+  routes,
+
+  // ✅ Scroll to top on every route change
+  scrollBehavior() {
+    return {
+      top: 0,
+      behavior: 'smooth'
+    }
+  }
+
 })
 // Set page title dynamically
 router.afterEach((to) => {

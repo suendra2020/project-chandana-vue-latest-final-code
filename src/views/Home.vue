@@ -3,9 +3,10 @@
     <AlertSection />
     <CarouselSection />    
     <AboutSection />
-    <FeatureBanners />
-    <PartnersSection />
+      
     <DistrictsSection />
+    <FeatureBanners />  
+    <PartnersSection />
     <AwarenessSection />
   </div>
 </template>

@@ -12,6 +12,9 @@
           📢 <strong>Update:</strong>  screening cum awareness 10-Sep-2025 <strong>Location:</strong> Chamarajanagar &nbsp;&nbsp;&nbsp;
            📢 <strong>Update:</strong>  screening cum awareness 13-Sep-2025 <strong>Location:</strong> Mysore HD kote &nbsp;&nbsp;&nbsp;
           📢 <strong>Stay Informed:</strong> New health reports will be published monthly.
+           📢 <strong>partners:</strong><img :src="$base + 'images/indianoil-logo.png'" alt="National Sickle Cell Anemia Elimination Mission Logo" width="80" height="80" class="scrollimg">Indian oil
+              <img :src="$base + 'images/karnatka.png'" alt="National Sickle Cell Anemia Elimination Mission Logo" width="80" height="80" class="scrollimg">Karnataka,
+               <img :src="$base + 'images/issm2.png'" alt="National Sickle Cell Anemia Elimination Mission Logo" width="80" height="80" class="scrollimg">   Indian institue of science
         </div>
       </div>
     </div>

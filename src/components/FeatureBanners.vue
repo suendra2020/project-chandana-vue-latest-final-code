@@ -93,15 +93,27 @@
             <div class="banner-text mb-4">
               <ul class="measures-list" aria-label="List of preventive measures">
                 <li>Awareness campaigns and workshops</li>
+                 <li>Mobile Screening and testing camps</li>
                 <li>Screening and Early Detection</li>
                 <li>Genetic Counseling and Education</li>
-                <li>Mobile Screening and testing camps</li>
+               
                 <li>Medical Treatment and Management</li>
               </ul>
               <router-link to="/activities" class="btn btn-outline" role="button">Explore Our Activities</router-link>
             </div>
             <div class="banner-image">
               <img :src="$base + 'images/awe-1.jpg'" alt="Infographic showing five preventive measures for sickle cell anemia">
+            </div>
+               <!-- AUTO IMAGE CAROUSEL -->
+            <div class="banner-image carousel-image">
+
+              <img
+                v-for="(img,index) in carouselImages"
+                :key="index"
+                :src="img"
+                v-show="currentImage === index"
+              >
+
             </div>
           </div>
         </div>
@@ -115,6 +127,14 @@ export default {
   name: 'FeatureBanners',
   data() {
     return {
+      currentImage: 0,
+
+      carouselImages: [
+        this.$base + "images/awe-1.jpg",
+        this.$base + "images/training-1.jpeg",
+        this.$base + "images/awe-3.jpg",
+        this.$base + "images/awe-4.jpg"
+      ],
       animatedStats: {
         tests: 0,
         districts: 0,
