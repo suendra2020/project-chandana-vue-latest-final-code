@@ -104,7 +104,7 @@ Office: 080-2293 22691
         <div class="contact-info-box">
           <h3>Kodagu District</h3>
           <p><b>Dr Mamatha H G</b> </p>
-          <p><b>Phone:</b> 9535460451</p>
+          <p><b>Phone:</b> 0821-2345678</p>
           <p>
             <!-- <strong>Email:</strong>
             <a href="mailto:kodagu.dho@example.com">kodagu.dho@example.com</a> -->
@@ -117,7 +117,7 @@ Office: 080-2293 22691
         <div class="contact-info-box">
           <h3>Chamarajanagar District</h3>
           <p><b>Dr Darshini V</b> </p>
-          <p><strong>Phone:</strong> 6361895721</p>
+          <p><strong>Phone:</strong> 0821-2345678</p>
           <p>
             <!-- <strong>Email:</strong>
             <a href="mailto:chamarajanagar.dho@example.com">chamarajanagar.dho@example.com</a> -->

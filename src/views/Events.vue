@@ -17,7 +17,7 @@
       <!-- <img src="@/assets${this.$base}images/reports.png" alt="Annual Progress Report 2024" class="report-image"> -->
 
       <div class="report-content1">
-        <div class="report-meta1">
+        <!-- <div class="report-meta1">
           <h3>
             <a
               href="https://drive.google.com/drive/folders/1Gwr9HbhXeA0o4LOjSfwGP7x4mlv5ZxDN"
@@ -29,7 +29,7 @@
               OneDrive access to all information regarding Project CHAnDAnA
             </a>
           </h3>
-        </div>
+        </div> -->
 
         <!-- Optional Actions -->
         <!--

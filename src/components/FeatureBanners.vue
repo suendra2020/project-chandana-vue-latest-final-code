@@ -101,19 +101,16 @@
               </ul>
               <router-link to="/activities" class="btn btn-outline" role="button">Explore Our Activities</router-link>
             </div>
-            <div class="banner-image">
-              <img :src="$base + 'images/awe-1.jpg'" alt="Infographic showing five preventive measures for sickle cell anemia">
-            </div>
+            
                <!-- AUTO IMAGE CAROUSEL -->
             <div class="banner-image carousel-image">
-
               <img
-                v-for="(img,index) in carouselImages"
+                v-for="(img, index) in carouselImages"
                 :key="index"
                 :src="img"
+                :alt="'Preventive measure ' + (index + 1)"
                 v-show="currentImage === index"
-              >
-
+              />
             </div>
           </div>
         </div>
@@ -128,7 +125,6 @@ export default {
   data() {
     return {
       currentImage: 0,
-
       carouselImages: [
         this.$base + "images/awe-1.jpg",
         this.$base + "images/training-1.jpeg",
